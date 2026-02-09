@@ -1,0 +1,5 @@
+{
+  "name": "Café Entre Surcos - Proyector",
+  "description": "Herramienta de gestión de producción de café para calcular mermas y proyectar rendimientos entre las etapas de Cereza, Pergamino, Verde y Tostado basándose en datos históricos.",
+  "requestFramePermissions": []
+}

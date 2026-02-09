@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    cssCodeSplit: false, // Esto obliga a que todo el CSS se una en un solo archivo
-  }
+  base: '/', // Asegúrate de que tenga esta línea
 })
